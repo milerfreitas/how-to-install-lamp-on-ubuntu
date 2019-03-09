@@ -1,3 +1,7 @@
+<h1>Tutorial de como instalar a pilha LAMP no Ubuntu</h1>
+
+<b>Este passo a passo foi traduzido do site: https://howtoubuntu.org/how-to-install-lamp-on-ubuntu</b>
+
 <h2>Instalar o Apache</h2>
 
 <p>Para instalar o Apache, você deve instalar o pacote apache2. Isso pode ser feito procurando e instalando no Centro de Software ou executando o seguinte comando.</p>
