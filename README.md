@@ -14,6 +14,28 @@
 
 <code>sudo apt install mysql-server</code>
 
+<h2>Instalar o MariaDB MariaDB 10.3 no Ubuntu</h2>
+
+<p>Para instalar o MariaDB 10.3 no Ubuntu, você precisa adicionar o repositório MariaDB no sistema.</p>
+
+<code>sudo apt-get install software-properties-common</code>
+
+<p>Execute o comando abaixo para adicionar a Chave do Repositório ao sistema</p>
+
+<code>sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8</code>
+
+<p>Uma vez que a chave PGP é importada, prossiga para adicionar o URL do repositório ao seu servidor Ubuntu</p>
+
+<code>sudo add-apt-repository 'deb [arch=amd64] http://mirror.zol.co.zw/mariadb/repo/10.3/ubuntu bionic main'</code>
+
+<p>A última etapa é a instalação do servidor MariaDB:</p>
+
+<code>
+sudo apt update
+sudo apt -y install mariadb-server mariadb-client
+</code>
+
+
 <h2>Instalar o PHP</h2>
 
 <p>O PHP requer alguns pacotes para funcionar conforme o esperado, por isso recomendamos o seguinte comando.</p>
