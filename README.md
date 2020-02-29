@@ -49,3 +49,4 @@ sudo apt -y install mariadb-server mariadb-client
 <code>php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'</code>
 
 <code>https://elias.praciano.com/2017/07/como-resolver-o-erro-1698-de-acesso-negado-no-mysql-e-mariadb/</code>
+<code>https://medium.com/@maiquelleonel/como-definir-senha-do-usuário-root-em-mysql-5-6-e-ubuntu-17-10-501e74767e63</code>
